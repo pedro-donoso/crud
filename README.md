@@ -2,6 +2,8 @@
 
 # CRUD
 
+## Escribir file.txt (exacto y con extensión .txt)
+
 *ejecutar desde terminal*
 
 1. Instalar express:
