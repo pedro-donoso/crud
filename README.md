@@ -2,7 +2,7 @@
 
 # CRUD
 
-### Escribir file.txt (exacto y con extensión .txt)
+#### Escribir file.txt (exacto y con extensión .txt)
 
 *ejecutar desde terminal*
 
@@ -19,3 +19,4 @@ Permitirá realizar el crud
 ```
 node index.js
 ```
+#### *Los archivos deben renombrarse exactos y con la extensión .txt
