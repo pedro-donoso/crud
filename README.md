@@ -2,7 +2,7 @@
 
 # CRUD
 
-#### Escribir file.txt (exacto y con extensión .txt)
+#### El primer archivo debe llamarse file.txt (exacto y con extensión .txt)
 
 *ejecutar desde terminal*
 
