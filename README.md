@@ -20,3 +20,5 @@ Permitirá realizar el crud
 node index.js
 ```
 #### *El archivo file.txt puede renombrarse con cualquier nombre pero al repetirse debe ser exacto y con la extensión .txt
+
+![44](https://user-images.githubusercontent.com/68760595/132887559-e48f2a44-cf43-4bf9-8633-d3c66e1a778a.png)
