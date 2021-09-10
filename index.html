@@ -8,30 +8,61 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>CRUD</title>
 </head>
+
 <body>
-    <div class="container bg-warning text-danger py-3">
-        <h3>CRUD</h3>
-          <form action="http://localhost:3000/crear"> Escribe el Archivo-> <input name="nombre" placeholder="file.txt" />
-        <br /> Escribe Key provisorio: <textarea name="contenido" class="mt-3"></textarea>
-        <br />
-        <button class="btn-success">Crear Key provisorio</button>
+    <div class="row m-3 bg-warning p-3">
+      <!--Crear-->
+      <div>
+<h4>Crear un archivo</h4>
+<form action="http://localhost:3000/crear">
+  <div class="form-group">
+    Nombre del Archivo:
+     <input name="nombre" placeholder="file.txt" class="form-control" id="archivo"/>
+   </div>
+   <div class="my-3">
+      Escribe Key provisorio: 
+      <textarea name="contenido" class="form-control" id="contenido" cols="18" rows="3"></textarea>
+   </div>
+   <button type="submit" class="btn btn-success">Crear Key provisorio</button>
     </form>
-    <hr />
-    <form action="http://localhost:3000/leer"> Escribe el archivo-> <input name="nombre" placeholder="file.txt" />
-        <br />
-            <button class="btn-success">Leer Key ingresado</button>
-    </form>
-      <hr />
-    <form action="http://localhost:3000/renombrar"> Escribe el archivo-> <input name="nombre"/ placeholder="new.txt">
-        <br />
-  <button class="btn-success">Renombrar archivo</button>
-    </form>
-      <hr />
-    <form action="http://localhost:3000/eliminar"> Repite el nombre-> <input name="nombre"/ placeholder="new.txt">
-        <br />
-      <button class="btn-danger">Eliminar archivo</button>
-    </form>
+      </div>
+          
+      <!--Leer-->
+<div class="col-12 col-sm-3 container p-1">
+  <h4>Leer un archivo</h4>
+ <form action="http://localhost:3000/leer">
+<div class="form-group"> 
+Nombre del archivo-> 
+  <input name="nombre" placeholder="file.txt" class="form-control" id="archivo" />
+</div>
+<button type="submit" class="btn btn-success">Consultar archivo</button>
+</form>
+</div>
+
+<!--Renombrar-->
+<div class="col-12 col-sm-3 container p-1"> 
+<h4>Renombrar un archivo</h4>
+ <form action="http://localhost:3000/renombrar"> 
+  <div class="form-group">
+  Nombre del archivo
+  <input name="nombre"/ placeholder="new.txt" class="form-control" id="archivo">
+  </div>
+    <button type="submit" class="btn btn-success">Renombrar archivo</button>
+</form>
+</div>
+<!--Eliminar-->
+<div class="col-12 col-sm-3 container p-1">
+  <h4>Eliminar un archivo</h4>
+  <form action="http://localhost:3000/eliminar">
+    <div class="form-group">
+Nombre del archivo
+ <input name="nombre"/ placeholder="new.txt" class="form-control" id="archivo">
     </div>
+          <button type="submit" class="btn btn-danger">Eliminar archivo</button>
+  </form>
+</div>
+    </div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
