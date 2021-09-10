@@ -19,4 +19,4 @@ Permitirá realizar el crud
 ```
 node index.js
 ```
-#### *Los archivos deben renombrarse exactos y con la extensión .txt
+#### *El archivo file.txt puede renombrarse con cualquier nombre pero al repetirse debe ser exacto y con la extensión .txt
